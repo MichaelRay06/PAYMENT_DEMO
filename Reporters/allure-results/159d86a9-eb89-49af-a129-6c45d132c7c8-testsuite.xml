@@ -1,0 +1,231 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615217749372' stop='1615217765923'>
+    <name>Testing the negative login functionalities of a dojo site: As a user, attempt logging in while the email and password text are empty</name>
+    <title>Testing the negative login functionalities of a dojo site: As a user, attempt logging in while the email and password text are empty</title>
+    <test-cases>
+        <test-case start='1615217749374' status='passed' stop='1615217749376'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1615217749377' status='passed' stop='1615217754767'>
+            <name>Given given I navigate to dojo site</name>
+            <title>Given given I navigate to dojo site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps>
+                <step start='1615217749380' status='undefined'>
+                    <name>POST /session/:sessionId/timeouts</name>
+                    <title>POST /session/:sessionId/timeouts</title>
+                    <attachments>
+                        <attachment title='Request' source='f0806b9a-0dbb-44e2-834d-8ea4818d100d-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps>
+                        <step start='1615217749392' status='passed' stop='1615217754765'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='a0a4e275-e9b3-45e7-b8c5-18fa55084fa4-attachment.json' type='application/json' size='46'/>
+                            </attachments>
+                            <steps>
+                                <step start='1615217749396' status='passed' stop='1615217749402'>
+                                    <name>POST /session/:sessionId/window/rect</name>
+                                    <title>POST /session/:sessionId/window/rect</title>
+                                    <attachments>
+                                        <attachment title='Request' source='8b72f693-a8b3-4bfc-ad8b-8282e076e1d3-attachment.json' type='application/json' size='63'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615217754767' status='broken' stop='1615217765921'>
+            <name>Then I expect the log in button not to be clickable</name>
+            <title>Then I expect the log in button not to be clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps>
+                <step start='1615217754769' status='passed' stop='1615217755887'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f2bb59e4-7af2-4e59-96f8-a850482eb51e-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='b025aad4-ab6e-46fc-a2a6-ac43f215a25c-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615217755902' status='passed' stop='1615217755911'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217756403' status='passed' stop='1615217756410'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217756902' status='passed' stop='1615217756909'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217757402' status='passed' stop='1615217757409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217757902' status='passed' stop='1615217757910'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217758402' status='passed' stop='1615217758409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217758902' status='passed' stop='1615217758909'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217759405' status='passed' stop='1615217759416'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217759902' status='passed' stop='1615217759910'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217760403' status='passed' stop='1615217760409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217760902' status='passed' stop='1615217760909'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217761403' status='passed' stop='1615217761409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217761902' status='passed' stop='1615217761909'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217762402' status='passed' stop='1615217762409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217762902' status='passed' stop='1615217762909'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217763403' status='passed' stop='1615217763409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217763903' status='passed' stop='1615217763910'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217764403' status='passed' stop='1615217764413'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217764902' status='passed' stop='1615217764909'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615217765403' status='passed' stop='1615217765409'>
+                    <name>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</name>
+                    <title>GET /session/:sessionId/element/b03ab41b-3983-47f6-9103-859d9df3dde7/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='749e0882-905e-46e9-954d-9f8389ebe3f3-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>Element not displayed till  time out: [object Object]</message>
+                <stack-trace>Error: Element not displayed till  time out: [object Object]
+                    at Elements.doIsEnabled (C:\Users\mrmra\WebstormProjects\WEBSTROM_WORKSPACE\WEBSTROM_WEBDRIVERIO\WEBSTROM_WEBDRIVERIO_BDD\NDK_TEK_PAYMENTSENSE_BDD\features\utilities\/Elements.js:74:19)
+                    at LoginPage.verifyElementEnable (C:\Users\mrmra\WebstormProjects\WEBSTROM_WORKSPACE\WEBSTROM_WEBDRIVERIO\WEBSTROM_WEBDRIVERIO_BDD\NDK_TEK_PAYMENTSENSE_BDD\features\pageobjects\/LoginPage.js:41:27)
+                    at World.&lt;anonymous> (C:\Users\mrmra\WebstormProjects\WEBSTROM_WORKSPACE\WEBSTROM_WEBDRIVERIO\WEBSTROM_WEBDRIVERIO_BDD\NDK_TEK_PAYMENTSENSE_BDD\features\step-definitions\/ValidateEmailPasswordNegative.login.steps.js:13:8)
+                    at World.executeSync (C:\Users\mrmra\WebstormProjects\WEBSTROM_WORKSPACE\WEBSTROM_WEBDRIVERIO\WEBSTROM_WEBDRIVERIO_BDD\NDK_TEK_PAYMENTSENSE_BDD\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\mrmra\WebstormProjects\WEBSTROM_WORKSPACE\WEBSTROM_WEBDRIVERIO\WEBSTROM_WEBDRIVERIO_BDD\NDK_TEK_PAYMENTSENSE_BDD\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1615217765922' status='passed' stop='1615217765922'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

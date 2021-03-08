@@ -1,0 +1,11 @@
+import cucumberJson from 'wdio-cucumberjs-json-reporter';
+
+// Attach a string (if no type is provided it will automatically default to `text/plain`
+cucumberJson.attach('just a string');
+cucumberJson.attach('just a second string', 'text/plain');
+
+// Attach JSON
+cucumberJson.attach({"json-string": true}, 'application/json');
+
+// Attach a screenshot in a before hook
+cucumberJson.attach(browser.takeScreenshot(), 'image/png');

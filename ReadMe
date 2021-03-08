@@ -1,0 +1,24 @@
+
+You can run this test in MOBILE, TABLET, DESKTOP view be setting the required vied from the page spec in the pageobject package.
+ as below set to one of  :
+ MOBILE, TABLET, DESKTOP
+
+
+ let selectedDevice= DESKTOP_VIEW;
+
+
+ by default this test is run in chromedriver server
+ for cross browser testing in firefox, chrome and Michrosoft Edge plead go the the wdio confi file amd at search for serves and un comment for selenium-standalone server
+ as below:
+
+    services: ["chromedriver"],
+    //services: ["selenium-standalone"],
+
+    When run with selenium server plase quit the server befor run again.
+
+
+    to run this test run from the commandline:
+    npm run test
+
+    OR
+     npx wdio wdio.conf.js
